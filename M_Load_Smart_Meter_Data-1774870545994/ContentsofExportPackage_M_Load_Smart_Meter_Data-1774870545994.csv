@@ -1,0 +1,6 @@
+objectPath,objectName,objectType,id
+/Explore,Default,Project,6ZwQ8onUuIRjykzHlHGY2Z
+/Explore/Default,M_Load_Smart_Meter_Data,DTEMPLATE,5mvvqwxBruyehQZPhAOXUO
+/SYS,GANESH_ASUS,AgentGroup,bG3EvlOiMARiZx7VtRh5wO
+/SYS,flat_file_source,Connection,gmmUf1ns7GJlIvnEjZ0fui
+/SYS,flat_file_stage,Connection,9lo0IvN144Gh9NAkiuFVEB

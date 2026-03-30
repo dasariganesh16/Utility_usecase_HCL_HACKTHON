@@ -1,0 +1,129 @@
+{
+  "name" : "M_Load_Smart_Meter_Data-1774870545994",
+  "sourceOrgId" : "9nOq5JFjAElj4KjEU6sliZ",
+  "sourceOrgName" : "MLRITM",
+  "exportedObjects" : [ {
+    "objectGuid" : "6ZwQ8onUuIRjykzHlHGY2Z",
+    "objectName" : "Default",
+    "objectType" : "Project",
+    "path" : "/Explore",
+    "providerName" : null,
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "objectRefs" : [ ],
+      "contextAttributes" : [ {
+        "name" : "IS_DEF_LOC",
+        "value" : "true"
+      } ],
+      "additionalInfo" : {
+        "description" : "Auto-generated Default Project",
+        "contentType" : null,
+        "documentState" : "COMPLETE"
+      }
+    }
+  }, {
+    "objectGuid" : "5mvvqwxBruyehQZPhAOXUO",
+    "objectName" : "M_Load_Smart_Meter_Data",
+    "objectType" : "DTEMPLATE",
+    "path" : "/Explore/Default",
+    "providerName" : null,
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01DLSL1700000000001A"
+      },
+      "objectRefs" : [ "gmmUf1ns7GJlIvnEjZ0fui", "9lo0IvN144Gh9NAkiuFVEB" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  }, {
+    "objectGuid" : "bG3EvlOiMARiZx7VtRh5wO",
+    "objectName" : "GANESH_ASUS",
+    "objectType" : "AgentGroup",
+    "path" : "/SYS",
+    "providerName" : null,
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01DLSL25000000000002"
+      },
+      "objectRefs" : [ ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  }, {
+    "objectGuid" : "gmmUf1ns7GJlIvnEjZ0fui",
+    "objectName" : "flat_file_source",
+    "objectType" : "Connection",
+    "path" : "/SYS",
+    "providerName" : null,
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01DLSL0B000000000007"
+      },
+      "objectRefs" : [ "bG3EvlOiMARiZx7VtRh5wO" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    }
+  }, {
+    "objectGuid" : "9lo0IvN144Gh9NAkiuFVEB",
+    "objectName" : "flat_file_stage",
+    "objectType" : "Connection",
+    "path" : "/SYS",
+    "providerName" : null,
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01DLSL0B00000000000A"
+      },
+      "objectRefs" : [ "bG3EvlOiMARiZx7VtRh5wO" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    }
+  } ]
+}
